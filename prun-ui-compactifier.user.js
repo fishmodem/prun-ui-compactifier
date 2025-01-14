@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         PrUn UI Compactifier
 // @namespace    http://tampermonkey.net/
-// @version      1.0
+// @version      1.0.1
 // @description  Adjust styles for Prosperous Universe to make certain UI elements more compact, with toggles for each of its tweaks
 // @author       fishmodem
 // @match        https://apex.prosperousuniverse.com/*
@@ -93,6 +93,14 @@
             css: `
                 /* PMMG BRN Sort Mode Category Bars */
                 [class^="InventoryView__grid"] [class^="Sidebar__sectionHead"] {
+                    font-size: 8px !important;
+                    font-weight: bolder !important;
+                    margin: 2px 2px -5px !important;
+                    padding: 2px 1px 1px !important;
+                    background-color: transparent !important;
+                }
+                /* RP BRN Sort Mode Category Bars */
+                [class^="InventoryView__grid"] [class^="SectionHeader__container"] {
                     font-size: 8px !important;
                     font-weight: bolder !important;
                     margin: 2px 2px -5px !important;
