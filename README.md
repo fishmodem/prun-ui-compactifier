@@ -1,6 +1,6 @@
 I tested each feature individually, with both PMMGe (deprecated) and its replacement [Refined Prun](https://github.com/refined-prun/refined-prun), and it seems to work well.
 
-You'll need a userscript manager like [Tampermonkey](https://www.tampermonkey.net/) to run this script. If you already have one installed, you can [click here to install the UI compactifier](https://raw.githubusercontent.com/fishmodem/prun-ui-compactifier/refs/heads/main/prun-ui-compactifier.js).
+You'll need a userscript manager like [Tampermonkey](https://www.tampermonkey.net/) to run this script. If you already have one installed, you can [click here to install the UI compactifier](https://raw.githubusercontent.com/fishmodem/prun-ui-compactifier/refs/heads/main/prun-ui-compactifier.user.js).
 
 Here's a list of features, which can be toggled by editing the ENABLED_MODULES variable at the top of the script:
 
